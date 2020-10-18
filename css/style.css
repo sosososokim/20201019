@@ -1,0 +1,88 @@
+@-webkit-keyframes rotate {
+	0% { transform: rotate(0deg); }
+
+	50% { transform: rotate(30deg) ; }
+
+	100% { transform: rotate(0deg) ; } }
+
+@-webkit-keyframes rotate2 {
+	0% { transform: rotate(0deg); }
+
+	50% { transform: rotate(-40deg) ; }
+
+	100% { transform: rotate(0deg) ; } }
+
+@-webkit-keyframes rotate3 {
+	0% { transform: rotate(0deg); }
+
+	50% { transform: rotate(10deg) ; }
+
+	100% { transform: rotate(0deg) ; } }
+
+@-webkit-keyframes rotate4 {
+	0% { transform: rotate(0deg); }
+
+	50% { transform: rotate(-40deg) ; }
+
+	100% { transform: rotate(0deg) ; } }
+
+
+
+
+
+.큰상자{ display: flex; }
+
+.큰상자2{ display: flex; margin-top: 5%; }
+
+
+.초콜릿 { width: 12%; margin-left: 5%; }
+
+.초콜릿2 { width: 12%; margin-left: 15%; }
+
+.초콜릿3 { width: 12%; margin-left: 15%; }
+
+.초콜릿4 { width: 12%; margin-left: 15%; }
+
+.초콜릿9 { width: 12%; margin-left: 5%; }
+
+.초콜릿5 { width: 12%; margin-left: 19%; }
+
+.로고 { width: 30%; margin-left: 20%;  }
+
+.오30 { animation-name: rotate;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;}
+
+.왼50 { animation-name: rotate2;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite; }
+
+.오10 { animation-name: rotate3;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite; }
+
+.왼40 { animation-name: rotate4;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
